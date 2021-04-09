@@ -1,5 +1,5 @@
 #
-# BME640 Environmental Gas / Air Quality + temperature and humidity
+# BME680 Environmental Gas / Air Quality + temperature and humidity
 #
 
 import board
