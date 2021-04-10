@@ -1,11 +1,18 @@
 # pctel-wsc-1450-circuitpython-examples
 
-CircuitPython examples for PCTEL WSC-1450 and WSDK-1450.
+CircuitPython examples for PCTEL WSC-1450 and WSDK-1450. 
 
-1. The CircuitPython lib needs to be installed to run the examples. Download the library pack from CircuitPython website: https://circuitpython.org/libraries
-2. Details and tutorials on how to use CircuitPython in general, and the Adafruit libraries in particular, can be found here: https://learn.adafruit.com/welcome-to-circuitpython
+For details about this board navigate to https://pctel.com for general information about PCTEL and https://www.pctel.com/products/industrial-iot-devices/wireless-sensors/ for information about IoT devices and sensors.
 
-Download, extract, and copy the /lib directory to WSC-1450, connect a serial console to "Target USB" @ 115200,8,n,1, press Ctrl-d to soft reset the ASC-1450, and press a key to get the REPL started!
+
+To get started programming the WSC-1450 using Python 
+
+1. Program the WSC-1450 CircuitPython firmware. See [firmware](firmware) directory.
+2. The CircuitPython lib needs to be installed to run the examples. Download the library pack from CircuitPython website: https://circuitpython.org/libraries. Extract, and copy the /lib directory to the root of WSC-1450.
+3. Connect a serial console to "Target USB" @ 115200,8,n,1, press Ctrl-d to soft reset the WSC-1450, and press a key to get the REPL started!
+
+Details and tutorials on how to use CircuitPython in general, and the Adafruit libraries in particular, can be found here: https://learn.adafruit.com/welcome-to-circuitpython
+
 
 Happy hacking!
 
