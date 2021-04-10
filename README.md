@@ -5,7 +5,7 @@ CircuitPython examples for PCTEL WSC-1450 and WSDK-1450.
 For details about this board navigate to https://pctel.com for general information about PCTEL and https://www.pctel.com/products/industrial-iot-devices/wireless-sensors/ for information about IoT devices and sensors.
 
 
-To get started programming the WSC-1450 using Python 
+# Get started programming the WSC-1450 using Python 
 
 1. Program the WSC-1450 CircuitPython firmware. See [firmware](firmware) directory.
 2. The CircuitPython lib needs to be installed to run the examples. Download the library pack from CircuitPython website: https://circuitpython.org/libraries. Extract, and copy the /lib directory to the root of WSC-1450.
