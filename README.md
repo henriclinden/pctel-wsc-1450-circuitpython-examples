@@ -41,7 +41,7 @@ Altitude = 66.16 meters
 
 # Simple Bluetooth Low Energy example
 
-Here is an example of how to how to scan for Bluetooth Low Energy peripherals using the REPL.
+Example of how to scan for Bluetooth Low Energy peripherals using the REPL.
 
 ```python
 Adafruit CircuitPython 6.2.0-beta.0-6-geb845ce16-dirty on 2021-02-12; WSC-1450 with nRF52840
