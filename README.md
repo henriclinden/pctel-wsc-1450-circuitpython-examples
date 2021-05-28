@@ -2,14 +2,17 @@
 
 CircuitPython examples for PCTEL WSC-1450 and WSDK-1450. 
 
-For details about this board navigate to https://pctel.com for general information about PCTEL and https://www.pctel.com/products/industrial-iot-devices/wireless-sensors/ for information about IoT devices and sensors.
+For details about this board:
+1. https://pctel.com 
+2. https://www.pctel.com/products/industrial-iot-devices/wireless-sensors/ 
 
 
 # Get started programming the WSC-1450 using Python 
 
-1. Program the WSC-1450 CircuitPython firmware. See [firmware](firmware) directory.
-2. The CircuitPython lib needs to be installed to run the examples. Download the library pack from CircuitPython website: https://circuitpython.org/libraries. Extract, and copy the /lib directory to the root of WSC-1450.
-3. Connect a serial console to "Target USB" @ 115200,8,n,1, press Ctrl-d to soft reset the WSC-1450, and press a key to get the REPL started!
+1. Program the WSC-1450 CircuitPython firmware. See [firmware](firmware) directory. 
+2. Install the CircuitPython lib. Download the library pack from CircuitPython website: https://circuitpython.org/libraries. Extract, and copy the /lib directory to the root of WSC-1450.
+3. Install the examples. Download / clone this archive and copy the examples to the root of WSC-1450.
+4. Connect a serial console to "Target USB" @ 115200,8,n,1, press Ctrl-d to soft reset the WSC-1450, and press a key to get the REPL started!
 
 Details and tutorials on how to use CircuitPython in general, and the Adafruit libraries in particular, can be found here: https://learn.adafruit.com/welcome-to-circuitpython
 
@@ -20,7 +23,7 @@ Happy hacking!
 
 # How to run the examples
 
-The examples are run via Python's import statement. The WSC-1450 needs to be soft reset (using Ctrl-d) before the import statment is run.
+Examples are run via Python's import statement. WSC-1450 needs to be soft reset (using Ctrl-d) before any import statments are run.
 
 Below shows how to test the Bosch BME680 gas sensor. This sensor measure relative humidity, barometric pressure, ambient temperature and gas. 
 
