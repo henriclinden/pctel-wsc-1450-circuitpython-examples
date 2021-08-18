@@ -12,3 +12,6 @@
 
 Have fun!
 
+## Ref
+
+Source code for the firmware above are in this repo: [henriclinden/circuitpython](https://github.com/henriclinden/circuitpython). Use the branch "pctel_wsc_1450"
