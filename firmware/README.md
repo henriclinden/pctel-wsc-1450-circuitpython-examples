@@ -12,6 +12,8 @@
 
 Have fun!
 
+1. If the firmware do not seem to work, or if there is no "CIRCUIT:" drive detected when plugging in the console USB, then the flash needs to be erased completly before programming the softdevice and firmware. This can be done using the pyOCD software kit. See https://pyocd.io/ for details.
+
 ## Ref
 
 Source code for the firmware above are in this repo: [henriclinden/circuitpython](https://github.com/henriclinden/circuitpython). Use the branch "pctel_wsc_1450"
