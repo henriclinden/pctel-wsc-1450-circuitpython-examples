@@ -12,8 +12,30 @@
 
 Have fun!
 
-1. If the firmware do not seem to work, or if there is no "CIRCUIT:" drive detected when plugging in the console USB, then the flash needs to be erased completly before programming the softdevice and firmware. This can be done using the pyOCD software kit. See https://pyocd.io/ for details.
+NOTE: If the firmware do not seem to work, or if there is no "CIRCUITPY:" drive detected when plugging in the USB, then the flash memory probably not correctly initialized and needs to be erased completly before programming the softdevice and firmware. This can be done using the pyOCD software kit. See the pyOCD Programming section below and https://pyocd.io/ for details.
 
 ## Ref
 
 Source code for the firmware above are in this repo: [henriclinden/circuitpython](https://github.com/henriclinden/circuitpython). Use the branch "pctel_wsc_1450"
+
+## pyOCD Programming
+
+If the unit have not before been programmed with circuitpython, or if the softdevice needs to be updated, flash memory needs to be erased. This is acompliced using the “erase” subcommand of pyOCD.
+
+```
+pyocd erase
+```
+
+After erase is completed, softdevice and firmware can be programmed. 
+
+```
+pyocd load s140_nrf52_6.1.0_softdevice.hex
+
+pyocd load pctel_wsc_1450_2021.05.28_firmware.hex
+```
+
+To start the newly installed firmware, issue a reset.
+
+```
+pyocd reset
+```
