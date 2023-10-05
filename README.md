@@ -1,7 +1,9 @@
 # pctel-wsc-1450-circuitpython-examples
 
-CircuitPython examples for PCTEL Industrial Wireless Sensor Communication Solutions. 
+CircuitPython examples, and firmware, for PCTEL Industrial Wireless Sensor Communication Solutions. 
 This includes the Wireless Sensor Core WSC-1450 and the Wireless Sensor Development Kit WSDK-1450 but also stand-alone units as Wireless Sensor Endpoints WSE-11x0, WSE-12x0, and WSE-13x0. 
+
+The common part for all of the different PCTEL Sensror Devices are the Wireless Sensor Core WSC-1450. Hence, instructions below work for all of the WSC based units.
 
 For details about these boards:
 1. https://pctel.com 
