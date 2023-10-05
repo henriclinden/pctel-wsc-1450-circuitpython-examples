@@ -1,8 +1,8 @@
 # pctel-wsc-1450-circuitpython-examples
 
-CircuitPython examples for PCTEL WSC-1450 and WSDK-1450. 
+CircuitPython examples for PCTEL WSC-1450, WSE-14xx, and WSDK-1450. 
 
-For details about this board:
+For details about these boards:
 1. https://pctel.com 
 2. https://www.pctel.com/products/industrial-iot-devices/wireless-sensors/ 
 
