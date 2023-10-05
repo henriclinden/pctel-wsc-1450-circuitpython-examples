@@ -1,6 +1,7 @@
 # pctel-wsc-1450-circuitpython-examples
 
-CircuitPython examples for PCTEL WSC-1450, WSE-14xx, and WSDK-1450. 
+CircuitPython examples for PCTEL Industrial Wireless Sensor Communication Solutions. 
+This includes the Wireless Sensor Core WSC-1450 and the Wireless Sensor Development Kit WSDK-1450 but also stand-alone units as Wireless Sensor Endpoints WSE-11x0, WSE-12x0, and WSE-13x0. 
 
 For details about these boards:
 1. https://pctel.com 
@@ -16,6 +17,7 @@ For details about these boards:
 
 Details and tutorials on how to use CircuitPython in general, and the Adafruit libraries in particular, can be found here: https://learn.adafruit.com/welcome-to-circuitpython
 
+To program the Wireless Sensor Endpoints (WSE-xxxx), the easiest is to disassemble them and put the WSC board in a development kit for programming. 
 
 Happy hacking!
 
